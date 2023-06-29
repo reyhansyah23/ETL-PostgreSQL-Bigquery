@@ -1,4 +1,4 @@
-# etl_postgresql_bigquery
+# ETL from PostgreSQL to Bigquery
 
 So this project is an example project for my etl process from postgresql to bigquery.
 
