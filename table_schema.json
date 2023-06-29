@@ -1,0 +1,102 @@
+[
+    {
+      "name": "colA", 
+      "type": "STRING", 
+      "mode": "NULLABLE"
+    }, 
+    {
+      "name": "colB",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colC",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colD",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colT",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colG",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colM",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    }, 
+    {
+      "name": "colN",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colU",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colO",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colP",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colQ",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colR",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colS",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colF",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colI",
+      "type": "STRING", 
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colJ",
+      "type": "STRING", 
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colK",
+      "type": "STRING", 
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "colL", 
+      "type": "STRING", 
+      "mode": "NULLABLE"
+    }
+    ]

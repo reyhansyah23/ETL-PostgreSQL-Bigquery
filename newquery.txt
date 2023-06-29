@@ -1,0 +1,63 @@
+SELECT 
+    A,
+    B.nama AS C, 
+    D.nama AS E, 
+    F.nama AS G,
+    F.H, F.I, F.J,
+    K, L, M, N,
+    -- O.P, O.Q, O.R, O.S,
+    O.T, P.U AS V, 
+    P.W,
+    P.X AS Y,
+    Z,
+    AA,
+    (AA * AB + AA * AC * 0.01 * AB) AS AD,
+    AE, AF, AG, AH 
+    ,current_timestamp AT TIME ZONE 'WAST' AS AI, AJ,
+    P.created_at AS AK, P.updated_at AS AL,
+    AM, AN,
+    AO, AP,
+    AQ, AR ,
+    AS, AT, AU, AV, AW,
+    AX, AY * AX * 0.01 AS AZ
+FROM 
+    BA P 
+    INNER JOIN BC G ON G.D = P.E 
+    INNER JOIN BD H ON H.E = G.F 
+    INNER JOIN BE F ON F.G = G.H 
+    LEFT JOIN (
+        SELECT BF.AS AS A, BF.AT AS BA, BF.AU AS AV,
+        BH.AW AS AX, BH.AY AS AY, BH.AZ AS BA,
+        BB.AS AS BC, BB.AT AS BD, BB.AU AS BE, BB.BF AS BG, 
+        BH.BH AS BH, BB.AI AS AI ,
+        BF.created_at AS BJ, BF.updated_at AS BK,
+        BG.created_at AS BL, BG.updated_at AS BM ,
+        BH.created_at AS BN, BH.updated_at AS BO,
+        BH.BI 
+        FROM BP BH
+        LEFT JOIN BQ BG ON BG.BI = BH.AZ AND BH.BJ = 'approved'
+        LEFT JOIN BR BF ON BF.AA = BG.AD AND BG.AS = BH.AS AND BF.AB = 2022
+        INNER JOIN BS BI ON BI.AU = BG.AU AND BI.AZ = BG.AZ 
+        INNER JOIN BT BJ ON BJ.AS = BI.AS 
+        INNER JOIN (
+            SELECT BU.AV,
+                BU.AS AS BV,  
+                BU.AW AS BW, 
+                BV.AS AS BX,
+                BV.AT AS BY, 
+                BV.AU AS BZ, 
+                BV.AV AS CA 
+            FROM BX BV 
+            INNER JOIN BY BU ON BU.BV = BV.BV AND BV.BZ = BU.AV 
+            INNER JOIN BZ BW ON BW.BV = BV.BV AND BW.BZ = BV.BV 
+            WHERE BV.BV = 2022
+        ) CA ON CA.BV = BJ.BU AND CA.BV = BJ.AV 
+        GROUP BY BF.AS, BF.AT, BH.AW, BH.BA, BH.BC,
+        BH.AW, BH.BH, BB.AI, BB.AJ, BB.BE, BB.BF, BB.BG, 
+        BB.BH, BF.created_at, BF.updated_at ,
+        BG.created_at, BG.updated_at,
+        BH.created_at, BH.updated_at,BH.BI
+    ) BB ON BB.BA = P.AS 
+WHERE 
+    P.AW IN ('ABCDE', 'FGHIJ') 
+    AND P.AB = 2022

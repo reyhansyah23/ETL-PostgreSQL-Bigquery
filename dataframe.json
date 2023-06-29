@@ -1,0 +1,9 @@
+{
+    "abcde": 
+    {
+        "col_str":["colA", "colB", "colC","colD", "colE","colF"],
+        "col_date":["colG","colH","colI", "colJ","colK", "colL"],
+        "col_int":["colM", "colN", "colO","colP", "colQ","colR", "colS"],
+        "col_year":["colT","colU"]
+    }
+}

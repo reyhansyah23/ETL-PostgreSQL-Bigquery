@@ -1,0 +1,10 @@
+{
+    "erkam": 
+    {
+        "database":"dbname",
+        "user":"username",
+        "password":"pass",
+        "host":"localhost",
+        "port":"8888"
+    }
+}
